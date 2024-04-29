@@ -310,6 +310,14 @@ textarea {
   font-size: 14px;
   color: #FFF;
 }
+
+footer {
+  padding: 32px 0px 32px 0px;
+  background-color: #FFF;
+  text-align: center;
+  font-size: 16px;
+}
+
 input::placeholder, textarea::placeholder {
   color: #A2A2A2;
 }
