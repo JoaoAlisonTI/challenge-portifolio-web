@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     
     <script src="https://kit.fontawesome.com/f94e8ce304.js" crossorigin="anonymous"></script>
+    <script src="./js/main.js" type="text/javascript" charset="utf-8"></script>
     
   </head>
   <body>
@@ -27,7 +28,7 @@
         <img class="img-profile" src="https://github.com/JoaoAlisonTI.png" alt="Foto de perfil" />
       </div>
       <div class="div-infor">
-        <h2>Olá, meu nome é João Alison e sou desenvolvedor web</h2>
+        <h2>Olá 👋🏽, meu nome é João Alison e sou desenvolvedor web</h2>
         <p>"Porquanto, o mandamento é lâmpada, o ensino é luz, e as advertências da disciplina são o caminho que conduz à vida; Provérbios 6:23"</p>
         <div class="div-links">
           <a href="https:github.com/JoaoAlisonTI" target="_blank">Github <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
@@ -113,7 +114,7 @@
           <img src="./assets/images/projetos/projeto-sibi.jpg" alt="Imagem do projeto" />
           <div class="projeto-infor-div">
             <h4>SIBI - Gerardo José</h4>
-            <p>Sistema de biblioteca desenvolvido com JavaScript, PHP e MySql. Fui responsável pela criação das telas de listagem e edição de livros.</p>
+            <p>Sistema de biblioteca (SIBI) é um projeto voluntário para minha antiga escola. Fui responsável pela criação das telas de listagem e edição de livros. Foi desenvolvido com JavaScript, PHP e MySql.</p>
             <div class="projeto-links-div">
               <a class="projeto-link-repo" href="https://github.com/JoaoAlisonTI/Bibiloteca?tab=readme-ov-file" target="_blank">Repositório</a>
             </div>
@@ -124,7 +125,7 @@
           <img src="./assets/images/projetos/projeto-my-links.jpg" alt="Imagem do projeto" />
           <div class="projeto-infor-div">
             <h4>My Profile Links</h4>
-            <p>Um mini projeto desenvolvido com o objetivo de reunir alguns dos links que considero importantes para o meu perfil em 2024. Desenvolvido com React, Shadcn ui e Tailwind CSS.</p>
+            <p>Um mini projeto desenvolvido com o objetivo de reunir alguns dos links que considero importantes para o meu perfil em 2024. Desenvolvido com React.js, Shadcn ui e Tailwind CSS.</p>
             <div class="projeto-links-div">
               <a class="projeto-link-repo" href="https://github.com/JoaoAlisonTI/my-profile-links?tab=readme-ov-file" target="_blank">Repositório</a>
               <a class="projeto-link-demo" href="https://my-profile-links.vercel.app/">Demo</a>
@@ -136,7 +137,7 @@
           <img src="./assets/images/projetos/projeto-notes-expert.jpg" alt="Imagem do projeto" />
           <div class="projeto-infor-div">
             <h4>Notes Expert</h4>
-            <p>O projeto Notes Expert não é um simples projeto de “notas”, pois converte o “áudio” do usuário em “texto”. Desenvolvido com Typescript, React, Tailwind CSS e outras ferramentas.</p>
+            <p>O projeto Notes Expert não é um simples projeto de “notas”, pois converte o “áudio” do usuário em “texto”. Desenvolvido com Typescript, React.js, Tailwind CSS e outras ferramentas.</p>
             <div class="projeto-links-div">
               <a class="projeto-link-repo" href="https://github.com/JoaoAlisonTI/Notes-audio-to-text?tab=readme-ov-file" target="_blank">Repositório</a>
               <a class="projeto-link-demo" href="https://notes-expert-ti.vercel.app/">Demo</a>
@@ -148,7 +149,7 @@
           <img src="./assets/images/projetos/projeto-quiz-app.jpg" alt="Imagem do projeto" />
           <div class="projeto-infor-div">
             <h4>Quiz App</h4>
-            <p>Desenvolvido durante o mês de julho de 2023 com foco no aprendizado do React.</p>
+            <p>Desenvolvi durante julho de 2023 quando me deparei com um tutorialzinho do freeCodecamp. Foi desenvolvido com React.js e CSS. Para o design eu peguei como inspiração um que encontrei no figma e adaptei pro projetinho.</p>
             <div class="projeto-links-div">
               <a class="projeto-link-repo" href="https://github.com/JoaoAlisonTI/quiz-app" target="_blank">Repositório</a>
               <a class="projeto-link-demo" href="https://quizz-application.vercel.app/">Demo</a>
@@ -158,33 +159,14 @@
       </div>
     </section>
     <section class="contato-section">
-      <form class="form-contato" action="" method="get" accept-charset="utf-8">
+      <form>
         <div class="contato-topo">
           <h2>Contato</h2>
-          <p>Quer entrar em contato comigo? Preencha o formulário abaixo e entre em contato o mais rápido possível.</p>
+          <p>Quer entrar em contato comigo? Clique no botão abaixo e envie um email. Se for importante eu responderei o mais rápido possível!!!</p>
+          <p>💡 No Assunto seja expecífico e no campo de mensagem se apresente e dê mais detalhes do assunto.</p>
         </div>
-        
-        <fieldset>
-          <label for="Nome">Nome
-          <input type="text" name="Nome" id="nome" placeholder="Digite seu nome..." value="" />
-          </label>
-        </fieldset>
-        
-        <fieldset>
-          <label for="E-mail">E-mail
-          <input type="email" name="E-mail" id="email" placeholder="Digite seu e-mail..." value="" />
-          </label>
-        </fieldset>
-        
-        <fieldset>
-          <label for="Assunto">Assunto do e-mail
-          <input type="text" name="Assunto" id="assunto" value="" placeholder="Assunto..." />
-          </label>
-        </fieldset>
-        
-        <textarea name="Mensagem" id="mensagem" rows="8" cols="40" placeholder="Mensagem..."></textarea>
-        
-        <button id="btn-submit" type="submit">Enviar mensagem</button>
+
+        <button id="btn-submit" type="submit" onclick="location.href='mailto:';">Enviar mensagem <i class="fa-regular fa-envelope"></i></button>
       </form>
     </section>
     <footer>
