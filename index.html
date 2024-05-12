@@ -22,7 +22,22 @@
         <i class="fa-solid fa-circle-nodes"></i>
         <p>JoaoAlisonTI</p>
       </span>
+      <button id="menu-btn-open" onclick="abrirMenu()">
+        <i class="fa-solid fa-bars"></i>
+      </button>
     </header>
+    <div class="menu-div">
+      <span>
+        <button id="menu-btn-close" onclick="fecharMenu()">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </span>
+      <a href="#">Sobre mim</a>
+      <a href="#skills">Skills</a>
+      <a href="#formacao">Formação</a>
+      <a href="#experiencia">Experiência</a>
+      <a href="#contato">Contato</a>
+    </div>
     <section class="hero-section">
       <div class="div-img-profile">
         <img class="img-profile" src="https://github.com/JoaoAlisonTI.png" alt="Foto de perfil" />
@@ -41,7 +56,7 @@
       <p>Desenvolvedor cearense apaixonado por tecnologia, com habilidades em JavaScript, HTML5/CSS3, Bootstrap, Tailwind e React.js. Experiência em práticas ágeis, práticas de código, acessibilidade (UX), versionamento com Git e Github, Vite.js para tooling front-end, Trello para gestão. Suporte (Se possível) em back-end com Node.js, PHP e SQL.</p>
       <p>Comprometido com o aprendizado contínuo, estou preparado para enfrentar os desafios dinâmicos do mundo tecnológico. 🚀💻</p>
     </section>
-    <section class="skills-section">
+    <section id="skills" class="skills-section">
       <h2>Skills</h2>
       <div class="skills-container">
         <div class="div-skill">
@@ -86,7 +101,7 @@
         </div>
       </div>
     </section>
-    <section class="formacao-section">
+    <section id="formacao" class="formacao-section">
       <h2>Formação Acadêmica</h2>
       
       <div class="formacao-container">
@@ -106,7 +121,7 @@
         </div>
       </div>
     </section>
-    <section class="projetos-section">
+    <section id="experiencia" class="projetos-section">
       <h2>Experiência Profissional</h2>
       
       <div class="projetos-container">
@@ -158,7 +173,7 @@
         </div>
       </div>
     </section>
-    <section class="contato-section">
+    <section id="contato" class="contato-section">
       <form>
         <div class="contato-topo">
           <h2>Contato</h2>

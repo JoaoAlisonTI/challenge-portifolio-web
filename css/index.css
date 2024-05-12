@@ -24,6 +24,9 @@ h4 {
   font-size: 16px;
   line-height: 18.78px;
 }
+button, a {
+  cursor: pointer;
+}
 header {
   top: 0;
   position: fixed;
@@ -31,7 +34,7 @@ header {
   backdrop-filter: blur(10px);
   box-shadow: 0 0 10px 2px #F3F5FC;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
   height: 56px;
@@ -49,6 +52,43 @@ header {
 .logo i {
   color: #2A7AE4;
   animation: girando 2s linear infinite;
+}
+
+#menu-btn-open, #menu-btn-close {
+  padding: 4px 8px;
+  border: none;
+  border-radius: 8px;
+  background-color: #2A7AE4;
+  color: #FFF;
+  font-size: 16px;
+}
+#menu-btn-open:hover, #menu-btn-close:hover {
+  opacity: 0.9;
+}
+.menu-div {
+  top: 0;
+  right: 0;
+  position: fixed;
+  width: 200px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  background-color: #2A7AE4;
+  gap: 8px;
+  animation: menuOpen 0.3s forwards;
+}
+.menu-div > span {
+  display: flex;
+  justify-content: end;
+}
+#menu-btn-close {
+  background-color: #FFF;
+  color: #2A7AE4;
+}
+.menu-div > a {
+  font-family: "Raleway", Sans-Serif;
+  font-weight: 500;
+  color: #FFF;
 }
 
 .hero-section {
@@ -271,7 +311,6 @@ form {
 }
 
 #btn-submit {
-  width: auto;
   max-width: 180px;
   padding: 12px 16px 12px 16px;
   display: flex;
@@ -296,6 +335,7 @@ footer {
   font-size: 16px;
 }
 
+/*Animações e outras lógicas*/
 @keyframes girando {
   0% {
     transform: rotate(0deg);
@@ -303,4 +343,16 @@ footer {
   100% {
     transform: rotate(360deg);
   }
+}
+@keyframes menuOpen {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.menu-div {
+  display: none;
 }
