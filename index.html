@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Meu portifólio web desenvolvido com HTML/CSS/JS 🚀" />
     
-    <title>Portifolio Web</title>
+    <title>JoaoAlisonTI web site</title>
     
     <link rel="stylesheet" href="css/index.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/scrollAnimation.css" type="text/css" media="all" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     
     <script src="https://kit.fontawesome.com/f94e8ce304.js" crossorigin="anonymous"></script>
-    <script src="./js/main.js" type="text/javascript" charset="utf-8"></script>
     
   </head>
   <body>
@@ -22,13 +23,13 @@
         <i class="fa-solid fa-circle-nodes"></i>
         <p>JoaoAlisonTI</p>
       </span>
-      <button id="menu-btn-open" onclick="abrirMenu()">
+      <button id="menu-btn-open">
         <i class="fa-solid fa-bars"></i>
       </button>
     </header>
     <div class="menu-div">
       <span>
-        <button id="menu-btn-close" onclick="fecharMenu()">
+        <button id="menu-btn-close">
           <i class="fa-solid fa-xmark"></i>
         </button>
       </span>
@@ -40,10 +41,10 @@
     </div>
     <section class="hero-section">
       <div class="div-img-profile">
-        <img class="img-profile" src="https://github.com/JoaoAlisonTI.png" alt="Foto de perfil" />
+        <img class="img-profile animate animate-left" src="https://github.com/JoaoAlisonTI.png" alt="Foto de perfil" />
       </div>
-      <div class="div-infor">
-        <h2>Olá 👋🏽, meu nome é João Alison e sou desenvolvedor web</h2>
+      <div class="div-infor animate animate-left">
+        <h2>Olá, meu nome é João Alison e sou Desenvolvedor Web</h2>
         <p>"Porquanto, o mandamento é lâmpada, o ensino é luz, e as advertências da disciplina são o caminho que conduz à vida; Provérbios 6:23"</p>
         <div class="div-links">
           <a href="https:github.com/JoaoAlisonTI" target="_blank">Github <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
@@ -125,7 +126,7 @@
       <h2>Experiência Profissional</h2>
       
       <div class="projetos-container">
-        <div class="projeto-div">
+        <div class="projeto-div animate">
           <img src="./assets/images/projetos/projeto-sibi.jpg" alt="Imagem do projeto" />
           <div class="projeto-infor-div">
             <h4>SIBI - Gerardo José</h4>
@@ -136,7 +137,7 @@
           </div>
         </div>
         
-        <div class="projeto-div">
+        <div class="projeto-div animate">
           <img src="./assets/images/projetos/projeto-my-links.jpg" alt="Imagem do projeto" />
           <div class="projeto-infor-div">
             <h4>My Profile Links</h4>
@@ -148,7 +149,7 @@
           </div>
         </div>
         
-        <div class="projeto-div">
+        <div class="projeto-div animate">
           <img src="./assets/images/projetos/projeto-notes-expert.jpg" alt="Imagem do projeto" />
           <div class="projeto-infor-div">
             <h4>Notes Expert</h4>
@@ -160,7 +161,7 @@
           </div>
         </div>
         
-        <div class="projeto-div">
+        <div class="projeto-div animate">
           <img src="./assets/images/projetos/projeto-quiz-app.jpg" alt="Imagem do projeto" />
           <div class="projeto-infor-div">
             <h4>Quiz App</h4>
@@ -181,7 +182,7 @@
           <p>💡 No Assunto seja expecífico e no campo de mensagem se apresente e dê mais detalhes do assunto.</p>
         </div>
 
-        <button id="btn-submit" type="submit" onclick="location.href='mailto:';">Enviar mensagem <i class="fa-regular fa-envelope"></i></button>
+        <button id="btn-submit" type="submit" onclick="location.href='mailto:alison.contato.github@gmail.com';">Enviar mensagem <i class="fa-regular fa-envelope"></i></button>
       </form>
     </section>
     <footer>
@@ -191,5 +192,7 @@
         <p>JoaoAlisonTI</p>
       </span>
     </footer>
+    
+    <script type="module" defer src="/js/main.js"></script>
   </body>
 </html>
