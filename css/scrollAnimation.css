@@ -1,0 +1,17 @@
+.animate{
+    opacity: 0;
+    filter: blur(5px);
+    /*transform: translateY(-100%);*/
+    transition: all 1.5s ease;
+}
+.animate-left{
+    /*display: flex;*/
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1.8s ease;
+}
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}

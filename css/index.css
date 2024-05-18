@@ -28,6 +28,7 @@ button, a {
   cursor: pointer;
 }
 header {
+  z-index: 1;
   top: 0;
   position: fixed;
   background-color: rgb(245,245,245, 0.8);
@@ -66,6 +67,7 @@ header {
   opacity: 0.9;
 }
 .menu-div {
+  z-index: 1;
   top: 0;
   right: 0;
   position: fixed;
