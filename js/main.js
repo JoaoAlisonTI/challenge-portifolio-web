@@ -1,6 +1,14 @@
-function abrirMenu() {
+import { observerAnimation } from './observerAnimation.js';
+
+let menuOpen = document.getElementById('menu-btn-open');
+let menuClose = document.getElementById('menu-btn-close');
+
+menuOpen.addEventListener("click", function() {
   document.querySelector('.menu-div').style.display = "flex";
-}
-function fecharMenu() {
+});
+
+menuClose.addEventListener("click", function() {
   document.querySelector('.menu-div').style.display = "none";
-}
+});
+
+observerAnimation();
