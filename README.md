@@ -45,7 +45,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Trello
 - Git e Github
 
-Optei pelo basicão mesmo (HTML/CSS) para estruturar e estilizar o site, JavaScript para dar vida em algumas funcionalidades e por questão de organização utilizei por módulos. Para organizar as tasks e o desenvolvimento do projeto eu utilizei o Trello. E para o versionamento de código os bons e velhos amigos Git/Github.
+Optei pelo basicão mesmo (HTML/CSS) para estruturar e estilizar o site e JavaScript para dar vida em algumas funcionalidades. Para organizar as tasks e o desenvolvimento do projeto eu utilizei o Trello. E para o versionamento de código os bons e velhos amigos Git/Github.
 
 ### Continuar o desenvolvimento
 Pretendo dá uma limpada no código e futuramente trocar a paleta de cores + um modo dark/light.
