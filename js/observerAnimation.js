@@ -1,4 +1,4 @@
-function observerAnimation() {
+
   const oBservador = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
         if (entry.isIntersecting) {
@@ -12,6 +12,3 @@ function observerAnimation() {
   const elements = document.querySelectorAll('.animate', '.animate-left');
 
   elements.forEach( (element) => oBservador.observe(element) );
-};
-
-export { observerAnimation };
