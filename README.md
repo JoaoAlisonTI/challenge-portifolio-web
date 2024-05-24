@@ -57,7 +57,7 @@ Pretendo dá uma limpada no código e futuramente trocar a paleta de cores + um 
 </br>
 
 ## Autor
-*JoãoAlisonTI 👨🏽‍💻*
+*JoaoAlisonTI 👨🏽‍💻*
 
 ---
 
